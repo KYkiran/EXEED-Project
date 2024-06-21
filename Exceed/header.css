@@ -1,0 +1,66 @@
+.Header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex: 1;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(213, 213, 213) ;
+    z-index: 1;
+    padding-left: 80px;
+}
+.left-section{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Name{
+    font-family: protest revolution;
+    font-size: 50px;
+    color: rgb(70, 144, 86);
+}
+.search{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 35px;
+    
+}
+.input-field{
+    flex: 1;
+    height: 30px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(70, 144, 86);
+    border-radius: 10px;
+    box-shadow: inset 1px 2px 3px rgba(0,0 ,0 , 0.05);
+}
+.input-field::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    
+}
+.my-channel{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 24px;
+    border-radius: 16px;
+    padding: 0%;
+}
