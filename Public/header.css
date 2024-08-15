@@ -1,0 +1,33 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 72px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 1.1rem;
+    font-weight:600px;
+    color: #d5764d;
+    text-transform: uppercase;
+}
+.logo span{
+    color: #4fa346;
+    font-weight: 700;
+}
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #4fa346;
+}
+body{
+    margin-left: 70px;
+}
